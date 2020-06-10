@@ -1,0 +1,6 @@
+# all the Debug dir is full of artifats
+Debug
+*.o
+*.su
+*.prefs
+
