@@ -1,7 +1,7 @@
 
 {
   "Application": {
-    "Name": "testStm32F429BI-compile",
+    "Name": "stm32F429BI-touchGfx",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "AvailableColorDepths": [ 24 ],
     "AvailableLCDs":
@@ -14,7 +14,7 @@
         "Height": 480
       }
     ],
-    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../testStm32F429BI-compile.ioc --platform=m4"
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../stm32F429BI-touchGfx.ioc --platform=m4"
   },
   "Version": "4.13.0"
 }
